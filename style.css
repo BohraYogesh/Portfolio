@@ -537,8 +537,9 @@ nav .fas{
 }
 
 #msg{
-  color: #a0dd96;
-  margin-top: -40px;
   display: block;
+  color: #a6b3b7;
+  margin-top: -40px;
+  text-align: center;
 }
 
