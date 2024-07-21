@@ -493,6 +493,9 @@ nav .fas{
   .main img{
     width: 90%;
   }
+  #contact .sub-title{
+    margin-top: 5px;
+  }
 }
 @media only screen and (max-width:601px){
   .sub-title{
