@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Yogesh's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="Images/logo1.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Images/logo01.png" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="main">
+         <div class="header-text">
+          <h3>Hello, I am</h3>
+          <h1 class="name">Yogesh <span>Bohra</span></h1>
+          <p>Web Developer</p>
+          <button type="button" id="hireme" onclick="location.href='https://www.linkedin.com/in/yogesh-bohra-8663a91aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'">Hire Me</button>
+          <div class="social-iconss">
+            <a href="https://github.com/BohraYogesh"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/YogeshBohra124?t=Yv6YkAuOY-uu9F-VCutMIw&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/yogesh.bohra.3532"><i class="fab fa-facebook"></i></a>
+
+          </div>
+        </div>
+        <img src="Images/User.png">
+      </div>
+    </div>
+  </div>
+
+
+   <div id="about">
+    <div class="container">
+      <h1 class="sub-title">About Me</h1>
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Images/User.jpeg" alt="userpic">
+        </div>
+        <div class="about-col-2">
+          <p>I possess a foundation in web development with a focus on leveraging the MERN(MongoDB, Express.js, React.js, Node.js) stack to build dynamic and scalable web applications. With a keen interest in cutting-edge technologies, I have skills in front-end development using HTML, CSS, and JavaScript, alongside proficiency in JavaScript frameworks like React.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br> Designing Web/App interfaces</li>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>Development Skills</span><br>React js, HTML, CSS, Js, Python, SQL, Figma, AutoCAD, Git & Github</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023</span><br> Bachelor of Technology in Computer Science</li>
+                <li><span>2019</span><br>Senior Secondary Examination Certificate</li>
+                <li><span>2017</span><br>Secondary Examination Certificate</li>
+              </ul>
+            </div>
+            <a href="Images/Yogesh's Resume.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Images/work-1.png" alt="Project01">
+          <div class="layer">
+            <h3>Cricket Game</h3>
+            <a href="https://bohrayogesh.github.io/Cricket-Game/">Check Out</i></a>
+          </div>
+       </div>
+        <div class="work">
+          <img src="Images/work-2.png" alt="Project01">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <a href="https://bohrayogesh.github.io/Cricket-Game/">Check Out</i></a>
+          </div>
+       </div>
+        <div class="work">
+          <img src="Images/work-3.png" alt="Project01">
+          <div class="layer">
+            <h3>To-do App</h3>
+            <a href="https://bohrayogesh.github.io/Cricket-Game/">Check Out</i></a>
+          </div>
+       </div>
+    </div>
+
+      <div id="button">See More</div>
+       
+    </div>
+
+   <div id="contact">
+     <h1 class="sub-title">Contact Me</h1>
+    <div class="container">
+        <div class="contact-right">
+        <Form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2" >Submit</button>
+        </Form>
+        <span id="msg"></span>
+      </div> 
+      </div>
+    </div>
+    <div id="footer">
+      <div class="no">
+        <p><i class="fas fa-paper-plane"></i>yogeshbohra124@gmail.com</p></div>
+        <div class="non">
+        <p><i class="fas fa-phone-square-alt"></i>9352642792</p>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/yogesh.bohra.3532"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/YogeshBohra124?t=Yv6YkAuOY-uu9F-VCutMIw&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/_bohra_ji?igsh=MWdoa3FjeWRjNWNteg%3D%3D"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/yogesh-bohra-8663a91aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+      </div>
+   </div>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    } 
+
+   </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right="0";
+    }
+    function closemenu(){
+      sidemenu.style.right="-200px";
+    }
+   </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzviJv-guz5VYQKVx54y-ydXAQoyg9u-J_vy7UNwxXuJRK6BjXy1tYoavtR2oQz9lBXDg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },3000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</script>
+</body>
+</html>
